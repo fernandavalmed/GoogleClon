@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Clon</title>
+    <link rel="icon" href="imagenes/google-icon.png">
+    <!--Connnection with CSS-->
+    <link rel="stylesheet" href="css\main.css">
+    <!-- Link de la lupa -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.min.css" integrity="sha512-i1b/nzkVo97VN5WbEtaPebBG8REvjWeqNclJ6AItj7msdVcaveKrlIIByDpvjk5nwHjXkIqGZscVxOrTb9tsMA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--ENCABEZADO-->
+    <!--Contiene elementos de la navegacion-->
+    <header>
+        <!--Puede haber mas elementos en el header, dependiendo de los elementos-->
+        <!--nav - aportar la navegacion de la pagina-->
+        <nav>
+            <!--Lista no ordenada-->
+            <ul class="nav-right-section">
+                <li>
+                    <a class="text" href="https://www.google.com/intl/es-419/gmail/about/">Gmail</a>
+                </li>
+                <li>
+                    <a class="text" href="https://www.google.com/imghp?hl=es&authuser=0&ogbl">Imágenes</a>
+                </li>
+                <li class="menu">
+                    <a href=""></a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="https://lh3.googleusercontent.com/ogw/AF2bZyiVUyNW5KarC-EXRv_UmZE7yJ3Oazg81AhNoZB2-6UXzw=s32-c-mo" alt="Profile image">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- PRINCIPAL -->
+    <!-- Contiene el logo, la barra de busqueda, etc. -->
+    <main>
+
+        <!-- logo image -->
+        <section>
+            <!-- Se utiliza para dividir secciones de manera mas amigable -->
+            <img id="main-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+        </section>
+
+        <!-- buscador -->
+        <section class="main-input">
+            <div class="main-input-container">
+                <!-- search icon -->
+                <span class="search-icon">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </span>
+
+                <!-- buscador -->
+                <input type="text" name="" id="buscador">
+
+                <!-- microphone icon -->
+                <a class="micro-icon" href="">
+                    <img id="microphone" src="imagenes/micro-google.png" alt="microphone-google-image">
+                </a>
+
+                <!-- camara icon -->
+                <a class="camara-icon" href="">
+                    <img id="camara" src="imagenes/camara-google.png" alt="camara-google-image">
+                    <div class="text-camara">Búsqueda por imagen</div>
+                </a>
+            </div>
+        </section>
+
+        <!-- botones -->
+        <section class="main-bottons">
+            <div>
+                <button id="bottons">Buscar con Google</button>
+            </div>
+
+            <div>
+                <a href="https://doodles.google/"><button id="bottons">Voy a tener suerte</button></a>
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- FOOTER -->
+    <!-- Contiene los links del pie de pagina -->
+    <footer>
+        <section class="element">
+            <ul>
+                <li>México</li>
+            </ul>
+            <ul id="creator">
+                <li>Clonado por María Fernanda Valdivia Mederos. Mayo, 2024</li>
+            </ul>
+        </section>
+
+        <section class="listas">
+            <!-- Lista de la derecha -->
+            <ul class="footer-right">
+                <li><a href="https://www.google.com/url?sa=t&rct=j&source=webhp&url=https://about.google/%3Futm_source%3Dgoogle-MX%26utm_medium%3Dreferral%26utm_campaign%3Dhp-footer%26fg%3D1&ved=0ahUKEwjMh-qYxf-FAxVzK0QIHY_kCnwQkNQCCB8&bl=yEg8&opi=89978449&usg=AOvVaw09qQxZE2XyQ825PN7qaVq3">Sobre Google</a></li>
+                <li><a href="https://www.google.com/url?sa=t&rct=j&source=webhp&url=https://www.google.com/intl/es_mx/ads/%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter%26fg%3D1&ved=0ahUKEwjMh-qYxf-FAxVzK0QIHY_kCnwQkdQCCCA&bl=yEg8&opi=89978449&usg=AOvVaw2lcoxYn7iM7OKN4FxFxjl0">Publicidad</a></li>
+                <li><a href="https://smallbusiness.withgoogle.com/intl/es-419_mx/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=MX#!/">Negocios</a></li>
+                <li><a href="https://google.com/search/howsearchworks/?fg=1">Cómo funciona la Búsqueda</a></li>
+            </ul>
+            
+            <!-- Lista de la izquierda -->
+            <ul class="footer-left">
+                <li><a href="https://www.google.com/url?sa=t&rct=j&source=webhp&url=https://policies.google.com/privacy%3Fhl%3Des-MX%26fg%3D1&ved=0ahUKEwjMh-qYxf-FAxVzK0QIHY_kCnwQ8awCCCI&bl=yEg8&opi=89978449&usg=AOvVaw2FjvAhBHkMSqySxUI2Or4U">Privacidad</a></li>
+                <li><a href="https://www.google.com/url?sa=t&rct=j&source=webhp&url=https://policies.google.com/terms%3Fhl%3Des-MX%26fg%3D1&ved=0ahUKEwjMh-qYxf-FAxVzK0QIHY_kCnwQ8qwCCCM&bl=yEg8&opi=89978449&usg=AOvVaw1X7Z5gDlpIkfgOwxqoXiHX">Condiciones</a></li>
+                <li><a href="">Preferencias</a></li>
+            </ul>
+        </section>
+    </footer>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js" integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</html>
